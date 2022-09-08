@@ -2,8 +2,7 @@
 ## Complexity Analysis of Algorithm
 ### Q. Let’s say for a given problem there are multiple solution, out these how you will figure it out which one is the best solution for you?
  
-Problem
- 
+
 [![image](https://www.linkpicture.com/q/Screenshot-331_1.png)](https://www.linkpicture.com/view.php?img=LPic631a44fc05c9a1306707651)
  
 ### Ans:-Based on their time & space complexity.
@@ -71,14 +70,14 @@ How many instructions are there?
  
 Ans. 15  
  
-Q. If value of N is 500,  how many instructions are there=?  
+Q. If value of N is 500,  how many instructions are there?  
  
 Ans. 15
  
 **__So the point is whatever the value of n no. of instruction are same.  
 In other words number of instruction are independent from the value of given input.__**
  
-It will take constance time doesn't matter what's the value of n. O(1)  
+It will take constant time doesn't matter what's the value of n. O(1)  
 ## Asymptotic notations
     Big – O Notation => Worst Case
     Ω Notation => Best Case
@@ -133,12 +132,12 @@ for(int i = 0; i<n ; i++){
 Ans:- T*N^2  
 10^5 * 10^8  
 =10^13  
-1013 Is greater than 108  , hence you will get a TLE.  
-### Q. Will Big-0(N) work  
+10^13 Is greater than 10^8  , hence you will get a TLE.  
+### Q. Will Big-0(N) work?    
 Ans:- T * n    
 10^5 * 10^4  
 =10^9  
-Which is still greater than 108 , so it will TLE .  
+Which is still greater than 10^8 , so it will TLE .  
  
 ### Q. Will big-0 (√N) work ?
 Ans:- T*√N  
@@ -161,6 +160,6 @@ Ans:- T*N^2
 10^7 < 10^8    
 It will work over here .  
  
-**So like this you have to calculate the number of itterations before written the actual code , as it will help you to determine feasable and non feasable solution**
+**So like this you have to calculate the number of iterations before written the actual code , as it will help you to determine feasable and non feasable solution**
  
 
