@@ -1,5 +1,5 @@
  
-## Complete Analysis of Algorithm
+## Complexity Analysis of Algorithm
 ### Q. Let’s say for a given problem there are multiple solution, out these how you will figure it out which one is the best solution for you?
  
 Problem
